@@ -16,5 +16,5 @@ resource "random_string" "suffix" {
 }
 
 locals {
-  result = substr("${local.prefix}${local.separated_name}${local.suffix}", 0, var.max_length)
+  result = substr("${local.prefix}${local.separated_name}", 0, var.max_length)
 }
