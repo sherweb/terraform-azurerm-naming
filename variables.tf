@@ -17,7 +17,7 @@ variable "suffixes" {
 variable "separator" {
   description = "The name, prefix and suffix separator (defaults to '-')."
   type        = string
-  default     = "-"
+  default     = "_"
 }
 
 variable "max_length" {
