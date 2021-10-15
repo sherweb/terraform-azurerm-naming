@@ -3,7 +3,7 @@ module "resource_group" {
   name       = var.name
   prefixes   = var.prefixes
   suffixes   = var.suffixes
-  separator  = var.separator != null ? var.separator : "-"
+  separator  = var.separator != null ? var.separator : "_"
   max_length = 90
 }
 
